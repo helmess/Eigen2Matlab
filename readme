@@ -213,3 +213,13 @@ EigenSolver<Matrix3d> eig(A);     // [vec val] = eig(A)
 eig.eigenvalues();                // diag(val)
 eig.eigenvectors();               // vec
 // For self-adjoint matrices use SelfAdjointEigenSolver<>
+
+***when you define matrix in class
+class A{
+public:
+matrixxd mag;
+}
+int main()
+{
+  A.mag.setidentity(5,5);
+}
